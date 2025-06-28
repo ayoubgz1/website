@@ -20,15 +20,16 @@ body{
     background: rgb(255, 249, 249);
 }
 nav{
-   width: 100%;
+   width: 100vh;
     background: rgb(0, 0, 0);
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 nav ul li :hover{
-    color:rgb(60, 0, 255);
-    text-decoration: underline;
+color: rgb(0, 255, 251);
+    text-decoration: underline rgb(128, 51, 0);
+    
     cursor: pointer;
     
 }
@@ -61,7 +62,7 @@ font-size: 30px;
      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .button :hover{
-    color: aqua;
+    color: rgb(0, 255, 251);;
     cursor: pointer;
     
 
